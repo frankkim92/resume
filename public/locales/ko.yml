@@ -2,13 +2,21 @@ menu:
   example: 예제
   about: About
   todo: 할 일
-home:
-  title: Let's Start
+title:
+  title: 'FRONTEND '
+  subtitle: DEVELOPER
+  content: 내용
+profile:
+  title: 김아무개
+  subtitle: (1999.1125)
+  content:  OOO 입니다. ~ 하는 것을 좋아하고 선호합니다.
+techStack:
+  title: Skills
   subtitle: Together
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  content: 스택 내용
+portFolio:
+  title: PortFolio
+  subtitle: PortFolio
+  content: 포폴 내용
 signIn: 로그인
 signOut: 로그아웃
