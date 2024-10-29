@@ -9,14 +9,49 @@ title:
 profile:
   title: 김아무개
   subtitle: (1999.1125)
-  content:  OOO 입니다. ~ 하는 것을 좋아하고 선호합니다.
+  content:  OOO 입니다.
 techStack:
   title: Skills
   subtitle: Together
   content: 스택 내용
 portFolio:
-  title: PortFolio
-  subtitle: PortFolio
-  content: 포폴 내용
+  headerTitle : Portfolio
+
+PortFolioDetail1:
+  title: 데이터팜 모바일
+  date : 2024.03 ~ 2024.11
+  stack: Vite, Vue3, Typescript
+  content1: ' - 로그인 화면 구현 로그인 화면 구현로그인 화면 구현로그인 화면 구현로그인 화면 구현로그인 화'
+  content2: ' - 모달창 화면 구현 모달창 화면 구현모달창 화면 구현모달창 화면 구현모달창 화면 '
+  content3: ' - 에러처리 구현 에러처리 구현에러처리 구현에러처리 구현에러처리 구현에러처리 구현에러처리'
+  content4: ' - 모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱 '
+
+PortFolioDetail2:
+  title: 데이터팜 웹
+  date : 2024.02 ~ 2024.09
+  stack: webpack, Vue2
+  content1: ' - 로그인 화면 구현 로그인 화면 구현로그인 화면 구현로그인 화면 구현로그인 화면 구현로그인 화'
+  content2: ' - 모달창 화면 구현 모달창 화면 구현모달창 화면 구현모달창 화면 구현모달창 화면 '
+  content3: ' - 에러처리 구현 에러처리 구현에러처리 구현에러처리 구현에러처리 구현에러처리 구현에러처리'
+  content4: ' - 모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱 '
+
+PortFolioDetail3:
+  title: Customer 360
+  date : 2023.10 ~ 2024.02
+  stack: Vite, Vue3, Typescript
+  content1: ' - 로그인 화면 구현 로그인 화면 구현로그인 화면 구현로그인 화면 구현로그인 화면 구현로그인 화'
+  content2: ' - 모달창 화면 구현 모달창 화면 구현모달창 화면 구현모달창 화면 구현모달창 화면 '
+  content3: ' - 에러처리 구현 에러처리 구현에러처리 구현에러처리 구현에러처리 구현에러처리 구현에러처리'
+  content4: ' - 모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱 '
+
+PortFolioDetail4:
+  title: 상품출시지원 MGMT
+  date : 2023.05 ~ 2024.09
+  stack : Vite, Vue3
+  content1: ' - 로그인 화면 구현  '
+  content2: ' - 모달창 화면 구현 모달창 화면 구현모달창 화면 구현모달창 화면 구현모달창 화면 '
+  content3: ' - 에러처리 구현  '
+  content4: ' - 모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱 '
+
 signIn: 로그인
 signOut: 로그아웃
