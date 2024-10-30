@@ -8,8 +8,8 @@ title:
   content: 내용
 profile:
   title: 김아무개
-  subtitle: (1999.1125)
-  content:  OOO 입니다.
+  subtitle: (2000.1234)
+  content:  OOO.
 techStack:
   title: Skills
   subtitle: Together
@@ -47,7 +47,7 @@ PortFolioDetail3:
 PortFolioDetail4:
   title: 상품출시지원 MGMT
   date : 2023.05 ~ 2024.09
-  stack : Vite, Vue3
+  stack : Vite, Vue3, Typescript
   content1: ' - 로그인 화면 구현  '
   content2: ' - 모달창 화면 구현 모달창 화면 구현모달창 화면 구현모달창 화면 구현모달창 화면 '
   content3: ' - 에러처리 구현  '
