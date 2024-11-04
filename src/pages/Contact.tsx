@@ -38,7 +38,7 @@ export default function Contact() {
   };
 
   const sendEmail = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault(); // 기본 폼 제출 방지
+    event.preventDefault();
     if (!validateForm()) {
       return;
     }
