@@ -28,7 +28,7 @@ function Header() {
           </div>
           <div>
             <ScrollLink
-              className="text-xl font-semibold text-left"
+              className=" cursor-pointer text-xl font-semibold text-left"
               to="profile"
               smooth="true"
               duration={500}
@@ -38,7 +38,7 @@ function Header() {
           </div>
           <div>
             <ScrollLink
-              className="text-xl font-semibold text-left"
+              className=" cursor-pointer text-xl font-semibold text-left"
               to="stack"
               smooth="true"
               duration={500}
@@ -48,12 +48,22 @@ function Header() {
           </div>
           <div>
             <ScrollLink
-              className="text-xl font-semibold text-left"
+              className=" cursor-pointer text-xl font-semibold text-left"
               to="portfolio"
               smooth="true"
               duration={500}
             >
               PortFolio
+            </ScrollLink>
+          </div>
+          <div>
+            <ScrollLink
+              className="cursor-pointer text-xl font-semibold text-left"
+              to="contact"
+              smooth="true"
+              duration={500}
+            >
+              Contact
             </ScrollLink>
           </div>
           <Sun

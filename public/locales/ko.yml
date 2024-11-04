@@ -52,6 +52,9 @@ PortFolioDetail4:
   content2: ' - 모달창 화면 구현 모달창 화면 구현모달창 화면 구현모달창 화면 구현모달창 화면 '
   content3: ' - 에러처리 구현  '
   content4: ' - 모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱모바일 웹앱 '
-
+contact:
+  title: Contact
+  subtitle: Together
+  content: 스택 내용
 signIn: 로그인
 signOut: 로그아웃

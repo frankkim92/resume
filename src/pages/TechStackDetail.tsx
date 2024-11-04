@@ -18,7 +18,6 @@ export default function TechStackDetail({ skillName, iconSrc }:IMockStackData) {
   const [isTypescriptModalOpen, setIsTypescriptModalOpen] = useState(false);
 
   const detailStack = (stack:string) => {
-    console.log(stack, 'stack');
     if (stack === 'Javascript') {
       setIsJavascriptModalOpen(true);
     }

@@ -19,6 +19,7 @@
     "update:shadcn-ui": "npx shadcn-ui@latest add -a -y -o"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@generouted/react-router": "^1.19.3",
     "@hookform/resolvers": "^3.3.4",
     "@mdx-js/rollup": "^3.0.1",
