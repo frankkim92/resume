@@ -18,7 +18,7 @@
     "serve-storybook": "serve dist",
     "update:shadcn-ui": "npx shadcn-ui@latest add -a -y -o",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\"",
+    "deploy": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\""
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
