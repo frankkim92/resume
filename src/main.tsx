@@ -6,10 +6,13 @@ import { createRoot } from 'react-dom/client';
 import { Routes } from '@generouted/react-router';
 import 'nprogress/nprogress.css';
 import '@/style/nprogress.css';
+import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')!).render(
-  <HelmetProvider>
-    <Routes />
-  </HelmetProvider>,
+  <BrowserRouter basename="/resume">
+    <HelmetProvider>
+      <Routes />
+    </HelmetProvider>,
+  </BrowserRouter>,
 
 );
