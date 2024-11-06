@@ -19,7 +19,7 @@
     "update:shadcn-ui": "npx shadcn-ui@latest add -a -y -o",
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\"",
-    "homepage": "https://frankkim92.github.io/"
+    "homepage": "https://frankkim92.github.io/resume"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
