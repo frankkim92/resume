@@ -1,5 +1,4 @@
-// import { Link } from 'react-scroll';
-import Menu from '@/components/layouts/header/menu';
+// import Menu from '@/components/layouts/header/menu';
 import MobileMenu from '@/components/layouts/header/mobileMenu';
 import { useTranslation } from 'react-i18next';
 import { Moon, Sun } from 'lucide-react';
@@ -23,9 +22,10 @@ function Header() {
         </RouterLink>
 
         <div className="flex justify-end space-x-4">
-          <div className="hidden grow basis-full sm:block">
-            <Menu menuItems={menuItems} />
-          </div>
+          {/* Todo : Example 주석 처리 */}
+          {/* <div className="hidden grow basis-full sm:block"> */}
+          {/*   <Menu menuItems={menuItems} /> */}
+          {/* </div> */}
           <div>
             <ScrollLink
               className=" cursor-pointer text-xl font-semibold text-left"
