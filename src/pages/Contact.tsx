@@ -51,12 +51,12 @@ export default function Contact() {
     setLoading(true);
 
     try {
-      // await emailjs.sendForm(
-      // import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      // import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-      // formElement,
-      // import.meta.env.VITE_EMAILJS_OPTIONS,
-      // );
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formElement,
+        import.meta.env.VITE_EMAILJS_OPTIONS,
+      );
       toast({
         description: '이메일 발송이 완료되었습니다.',
       });
