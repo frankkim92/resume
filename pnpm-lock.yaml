@@ -113,6 +113,9 @@ dependencies:
   axios:
     specifier: ^1.6.8
     version: 1.6.8
+  browser-router:
+    specifier: ^0.2.0
+    version: 0.2.0
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -5984,6 +5987,13 @@ packages:
     resolution: {integrity: sha512-nfulgvOR6S4gt9UKCeGJOuSGBPGiFT6oQ/2UBnvTY/5aQ1PnksW72fhZkM30DzoRRv2WpwZf1vHHEr3mtuXIWQ==}
     dev: true
 
+  /browser-router@0.2.0:
+    resolution: {integrity: sha512-lBmEZSXzhwO7q12kv0o4/WO6bVayqeHd2ZP0cCszeD9xTEC2fAM+U5BBKG+4yqJHqW//ua+olgPhEWETVjynGQ==}
+    dependencies:
+      query-string: 0.1.1
+      underscore: 1.5.2
+    dev: false
+
   /browserify-zlib@0.1.4:
     resolution: {integrity: sha512-19OEpq7vWgsH6WkvkBJQDFvJS1uPcbFOQ4v9CU839dO+ZZXUZO6XpE6hNCqvlIIj+4fZvRiJ6DsAQ382GwiyTQ==}
     dependencies:
@@ -10526,6 +10536,11 @@ packages:
       side-channel: 1.0.6
     dev: true
 
+  /query-string@0.1.1:
+    resolution: {integrity: sha512-SQ/K9KUsAl2bnieZV2mddfJkw/ea1W6K7zL9dNrpFrE8pkVNXf+AjgvJ4DOjRZ2IrINkPsqwV6x+k0gaVhMFfQ==}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -12165,6 +12180,10 @@ packages:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
     dev: true
+
+  /underscore@1.5.2:
+    resolution: {integrity: sha512-yejOFsRnTJs0N9CK5Apzf6maDO2djxGoLLrlZlvGs2o9ZQuhIhDL18rtFyy4FBIbOkzA6+4hDgXbgz5EvDQCXQ==}
+    dev: false
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}

@@ -58,6 +58,7 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "@uiw/react-md-editor": "^4.0.4",
     "axios": "^1.6.8",
+    "browser-router": "^0.2.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^0.2.1",
