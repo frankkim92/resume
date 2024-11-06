@@ -16,7 +16,10 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -s public -o dist/storybook",
     "serve-storybook": "serve dist",
-    "update:shadcn-ui": "npx shadcn-ui@latest add -a -y -o"
+    "update:shadcn-ui": "npx shadcn-ui@latest add -a -y -o",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d build",
+    "homepage": "https://frankkim92.github.io/"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -60,6 +63,7 @@
     "cmdk": "^0.2.1",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.0.2",
+    "gh-pages": "^6.2.0",
     "i18next": "^23.11.2",
     "i18next-browser-languagedetector": "^7.2.1",
     "i18next-http-backend": "^2.5.0",
