@@ -137,5 +137,5 @@
   "lint-staged": {
     "*": "eslint --fix"
   },
-  "homepage": "https://frankkim92.github.io/resume/"
+  "homepage": "https://frankkim92.github.io/resume/index.html"
 }
