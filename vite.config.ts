@@ -8,7 +8,6 @@ import { Mode, plugin } from 'vite-plugin-markdown';
 import mdx from '@mdx-js/rollup';
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/resume/',
   plugins: [
     { enforce: 'pre', ...mdx() },
     react(),
@@ -19,6 +18,7 @@ export default defineConfig({
       mode: [Mode.MARKDOWN],
     }),
   ],
+  base: '/resume',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
