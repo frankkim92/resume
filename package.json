@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://frankkim92.github.io/resume",
   "engines": {
     "node": ">=18",
     "pnpm": ">=8"
@@ -18,7 +19,7 @@
     "serve-storybook": "serve dist",
     "update:shadcn-ui": "npx shadcn-ui@latest add -a -y -o",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\""
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -136,6 +137,5 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  },
-  "homepage": "https://frankkim92.github.io/resume"
+  }
 }
