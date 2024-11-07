@@ -1,3 +1,9 @@
+import JavaScript from '@/assets/skill-icon/JavaScript.svg';
+import React from '@/assets/skill-icon/React-Light.svg';
+import VueJs from '@/assets/skill-icon/VueJS-Light.svg';
+import Typescript from '@/assets/skill-icon/TypeScript.svg';
+import Next from '@/assets/skill-icon/NextJS-Light.svg';
+
 export interface IMockStackData {
   skillName:string,
   iconSrc:string,
@@ -6,23 +12,23 @@ export interface IMockStackData {
 const mockStackData:IMockStackData[] = [
   {
     skillName: 'Javascript',
-    iconSrc: './src/assets/skill-icon/Javascript.svg',
+    iconSrc: JavaScript,
   },
   {
     skillName: 'Typescript',
-    iconSrc: './src/assets/skill-icon/Typescript.svg',
+    iconSrc: Typescript,
   },
   {
     skillName: 'Vue',
-    iconSrc: './src/assets/skill-icon/VueJS-Light.svg',
+    iconSrc: VueJs,
   },
   {
     skillName: 'React',
-    iconSrc: './src/assets/skill-icon/React.svg',
+    iconSrc: React,
   },
   {
     skillName: 'Next',
-    iconSrc: './src/assets/skill-icon/NextJS-Light.svg',
+    iconSrc: Next,
   },
 ];
 
