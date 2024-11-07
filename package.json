@@ -1,5 +1,4 @@
 {
-  "homepage": "http://frankkim92.github.io/resume",
   "name": "vite-react-typescript-template",
   "private": true,
   "version": "0.0.0",
@@ -137,5 +136,6 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  }
+  },
+  "homepage": "https://frankkim92.github.io/resume/"
 }
