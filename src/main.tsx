@@ -7,7 +7,6 @@ import 'nprogress/nprogress.css';
 import '@/style/nprogress.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '@/pages/_app';
-import Home from '@/pages/Home';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '',
-        element: <Home />,
+        element: <App />,
       },
     ],
   },
