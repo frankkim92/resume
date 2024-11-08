@@ -7,6 +7,7 @@ import { Link as RouterLink } from 'react-router-dom'; // React Router의 Link
 import { Link as ScrollLink } from 'react-scroll'; // React Scroll의 Link
 
 function Header() {
+  // Autoimport 찾아보기
   const { t } = useTranslation();
   const { toggle } = useDarkMode();
   const menuItems = [{ path: '/example', name: t('menu.example') }];
