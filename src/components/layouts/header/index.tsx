@@ -7,10 +7,13 @@ import { Link as RouterLink } from 'react-router-dom'; // React Router의 Link
 import { Link as ScrollLink } from 'react-scroll'; // React Scroll의 Link
 
 function Header() {
-  // Autoimport 찾아보기
+  // Todo:Autoimport 찾아보기
   const { t } = useTranslation();
   const { toggle } = useDarkMode();
   const menuItems = [{ path: '/example', name: t('menu.example') }];
+  const handleClick = () => {
+    window.location.reload();
+  };
 
   return (
     <header className="z-50 flex w-full flex-wrap justify-start py-4 text-sm fixed top-0 backdrop-blur-sm">
@@ -18,7 +21,7 @@ function Header() {
         <div className="sm:hidden">
           <MobileMenu menuItems={menuItems} />
         </div>
-        <RouterLink to="/resume" className="text-xl font-semibold text-left cursor-pointer">
+        <RouterLink to="/resume" onClick={handleClick} className="text-xl font-semibold text-left cursor-pointer">
           {t('project.title')}
         </RouterLink>
 
