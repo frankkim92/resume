@@ -17,7 +17,7 @@ function Header() {
         <div className="sm:hidden">
           <MobileMenu menuItems={menuItems} />
         </div>
-        <RouterLink to="/" className="text-xl font-semibold text-left cursor-pointer">
+        <RouterLink to="/resume" className="text-xl font-semibold text-left cursor-pointer">
           {t('project.title')}
         </RouterLink>
 
