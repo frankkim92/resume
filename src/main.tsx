@@ -7,17 +7,18 @@ import 'nprogress/nprogress.css';
 import '@/style/nprogress.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '@/pages/_app';
+// import Home from '@/pages/Home';
 
 const router = createBrowserRouter([
   {
     path: '/resume',
     element: <App />,
-    children: [
-      {
-        path: '',
-        element: <App />,
-      },
-    ],
+    // children: [
+    //   {
+    //     path: '',
+    //     element: <Home />,
+    //   },
+    // ],
   },
 ]);
 
