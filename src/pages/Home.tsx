@@ -4,7 +4,7 @@ import TechStack from '@/pages/TechStack';
 import PortFolio from '@/pages/PortFolio';
 import Title from './Title';
 
-export default function Index() {
+export default function Home() {
   return (
     <><div><Title /></div>
       <div><Profile /></div>

@@ -5,9 +5,9 @@ import '@/lib/locales';
 import { createRoot } from 'react-dom/client';
 import 'nprogress/nprogress.css';
 import '@/style/nprogress.css';
-import Index from '@/pages';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '@/pages/_app';
+import Home from '@/pages/Home';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '',
-        element: <Index />,
+        element: <Home />,
       },
     ],
   },

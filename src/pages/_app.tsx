@@ -1,7 +1,7 @@
 import Footer from '@/components/layouts/footer';
 import Header from '@/components/layouts/header/index';
 import { Toaster } from '@/components/ui/toaster';
-import Index from '@/pages/Index.tsx';
+import Home from '@/pages/Home';
 
 export default function App() {
   return (
@@ -9,7 +9,7 @@ export default function App() {
       <Toaster />
       <Header />
       <main className="mx-auto w-full max-w-[85rem] px-4 py-5 mt-[72px]">
-        <Index />
+        <Home />
       </main>
       <Footer />
     </div>
