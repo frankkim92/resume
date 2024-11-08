@@ -5,19 +5,20 @@ import '@/lib/locales';
 import { createRoot } from 'react-dom/client';
 import 'nprogress/nprogress.css';
 import '@/style/nprogress.css';
-import Index from '@/pages/index';
+import Index from '@/pages';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from '@/pages/_app';
 
 const router = createBrowserRouter([
   {
     path: '/resume',
-    element: <Index />,
-    // children: [
-    //   {
-    //     path: '',
-    //     element: <Index />,
-    //   },
-    // ],
+    element: <App />,
+    children: [
+      {
+        path: '',
+        element: <Index />,
+      },
+    ],
   },
 ]);
 

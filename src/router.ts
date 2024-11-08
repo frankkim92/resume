@@ -1,11 +1,11 @@
-// Generouted, changes to this file will be overriden
+// Generouted, changes to this file will be overridden
 /* eslint-disable */
 
-import { components, hooks, utils } from "@generouted/react-router/client";
+import { components, hooks, utils } from '@generouted/react-router/client'
 
 export type Path =
-  | `/`
   | `/Contact`
+  | `/Index`
   | `/PortFolio`
   | `/PortFolioDetail`
   | `/Profile`
@@ -85,16 +85,14 @@ export type Path =
   | `/example/typography/p`
   | `/example/typography/small`
   | `/example/typography/table`
-  | `/mypage`;
+  | `/mypage`
 
-export type Params = {};
+export type Params = {
+  
+}
 
-export type ModalPath = never;
+export type ModalPath = never
 
-export const { Link, Navigate } = components<Path, Params>();
-export const { useModals, useNavigate, useParams } = hooks<
-  Path,
-  Params,
-  ModalPath
->();
-export const { redirect } = utils<Path, Params>();
+export const { Link, Navigate } = components<Path, Params>()
+export const { useModals, useNavigate, useParams } = hooks<Path, Params, ModalPath>()
+export const { redirect } = utils<Path, Params>()
