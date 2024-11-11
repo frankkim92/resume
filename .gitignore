@@ -14,7 +14,7 @@ dist-ssr
 storybook-static
 
 # Environment variable files
-.env
+.env.production
 
 # Editor directories and files
 .vscode/*
