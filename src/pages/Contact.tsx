@@ -37,10 +37,6 @@ export default function Contact() {
     return true;
   };
 
-  useEffect(() => {
-    console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY, 'key');
-  }, []);
-
   const sendEmail = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!validateForm()) {
