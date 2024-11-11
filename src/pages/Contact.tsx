@@ -54,8 +54,8 @@ export default function Contact() {
       await emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        form.current,
-        import.meta.env.VITE_EMAILJS_OPTIONS,
+        formElement,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
       toast({
         description: '이메일 발송이 완료되었습니다.',
