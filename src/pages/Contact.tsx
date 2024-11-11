@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -36,6 +36,10 @@ export default function Contact() {
     }
     return true;
   };
+
+  useEffect(() => {
+    console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY, 'key');
+  }, []);
 
   const sendEmail = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -74,7 +78,6 @@ export default function Contact() {
       setLoading(false);
     }
   };
-
   return (
     <div id="contact" className="relative overflow-hidden before:absolute before:start-1/2 before:top-0">
       <div className="mx-auto max-w-[85rem] px-4 pb-10 pt-24 sm:px-6 lg:px-8">
