@@ -54,7 +54,7 @@ export default function Contact() {
       await emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        formElement,
+        form.current,
         import.meta.env.VITE_EMAILJS_OPTIONS,
       );
       toast({
