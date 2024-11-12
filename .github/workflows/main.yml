@@ -29,15 +29,16 @@ jobs:
           node-version: 20
       - name: Set environment variables
         run: |
-            echo "VITE_EMAILJS_PUBLIC_KEY=${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}" >> .env.production
-            echo "VITE_EMAILJS_SERVICE_ID=${{ secrets.VITE_EMAILJS_SERVICE_ID }}" >> .env.production
-            echo "VITE_EMAILJS_TEMPLATE_ID=${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}" >> .env.production
-            echo "VITE_EMAILJS_TEST_KEY=${{ secrets.VITE_EMAILJS_TEST_KEY }}" >> .env.production
+          echo "VITE_EMAILJS_PUBLIC_KEY=${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}" >> .env
+          echo "VITE_EMAILJS_SERVICE_ID=${{ secrets.VITE_EMAILJS_SERVICE_ID }}" >> .env
+          echo "VITE_EMAILJS_TEMPLATE_ID=${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}" >> .env
+          echo "VITE_EMAILJS_TEST_KEY=${{ secrets.VITE_EMAILJS_TEST_KEY }}" >> .env
+      - name: Check .env file
+        run: cat .env
       - name: Install pnpm
         run: npm install -g pnpm
       - name: Install dependencies
         run: pnpm install
-
       - name: Build
         run: pnpm run build
       - name: Setup Pages
@@ -49,7 +50,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
