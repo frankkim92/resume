@@ -41,14 +41,14 @@ export default function TechStackDetail({ skillName, iconSrc }:IMockStackData) {
         key={uuidv4()}
         className="relative overflow-hidden before:absolute before:start-1/2 before:top-0 p-4 transition-transform duration-200 hover:scale-150"
       >
-        <div className="mx-auto max-w-[85rem] px-4 pb-10 pt-6 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-[85rem]  pt-6 sm:px-6 lg:px-8">
           <div className="mx-auto  max-w-2xl text-center">
             <h1 className="block text-4xl font-bold text-gray-800 dark:text-gray-200 md:text-5xl lg:text-6xl">
               <button type="submit" onClick={() => detailStack(skillName)}>
                 <img
                   src={iconSrc}
                   alt={`${skillName} icon`}
-                  className="  w-24 h-48"
+                  className="w-24 h-24"
                 />
               </button>
               <span className="bg-gradient-to-tl from-blue-600 to-violet-600 bg-clip-text text-transparent" />
