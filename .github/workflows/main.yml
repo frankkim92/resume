@@ -17,7 +17,6 @@ concurrency:
 jobs:
   deploy:
     environment:
-      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
@@ -32,7 +31,6 @@ jobs:
           echo "VITE_EMAILJS_PUBLIC_KEY=${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}" >> .env
           echo "VITE_EMAILJS_SERVICE_ID=${{ secrets.VITE_EMAILJS_SERVICE_ID }}" >> .env
           echo "VITE_EMAILJS_TEMPLATE_ID=${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}" >> .env
-          echo "VITE_EMAILJS_TEST_KEY=${{ secrets.VITE_EMAILJS_TEST_KEY }}" >> .env
       - name: Check .env file
         run: cat .env
       - name: Install pnpm
