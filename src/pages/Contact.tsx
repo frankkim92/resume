@@ -21,6 +21,11 @@ export default function Contact() {
   const { t } = useTranslation();
   const form = useRef<HTMLFormElement | null>(null); // 수정된 부분
 
+  useEffect(() => {
+    console.log('hi');
+    console.log('import.meta.env.VITE_EMAILJS_TEST_KEY =>', import.meta.env.VITE_EMAILJS_TEST_KEY);
+  }, []);
+
   const validateForm = () => {
     if (!nameRef.current?.value) {
       nameRef.current?.focus();
