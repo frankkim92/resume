@@ -5,8 +5,6 @@ import mockPortFolioData, { IPortData, IChildren } from '@/data/mockPortFolioDat
 export default function PortFolioDetail() {
   const [data, setData] = useState<IPortData[]>([]);
 
-  const [commondata, setCommondata] = useState<IPortData[]>([]);
-
   useEffect(() => {
     setData(mockPortFolioData);
   }, []);
